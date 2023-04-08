@@ -3,8 +3,8 @@ import '../../src/features/authentication/screens/login/login_screen.dart';
 import '../../src/features/authentication/screens/signup/signup_screen.dart';
 import '../../src/features/authentication/screens/welcome/welcome.dart';
 
-import '../../src/features/core/admin/screens/dashboard.dart';
-import '../../src/features/core/user/screens/dashboard.dart';
+import '../features/core/admin/screens/dashboard.dart';
+import '../common_widgets/user_bottom_nav/bottombar.dart';
 
 import '../../splash_screen.dart';
 
@@ -20,5 +20,5 @@ var appRoutes = {
   '/dashboard': (context) => const AdminDashboardFragment(),
 
   //User routes :-
-  '/home': (context) => const DashboardFragment(),
+  '/home': (context) => const BottomBar(),
 };

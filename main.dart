@@ -1,3 +1,4 @@
+
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'src/bindings/intial_binding.dart';
@@ -50,8 +51,8 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          create: (_) => UserProvider(), 
-        )
+          create: (_) => UserProvider(),
+        ),
       ],
       child: RefreshConfiguration(
         child: GetMaterialApp(

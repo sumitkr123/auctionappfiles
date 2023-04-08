@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import '../screens/add.dart';
-import '../screens/dashboard.dart';
-import '../screens/like.dart';
-import '../screens/setting.dart';
-import '../screens/shop.dart';
+import 'dashboard.dart';
+import 'like.dart';
+import 'setting.dart';
+import 'shop.dart';
 
 class Dash1 extends StatefulWidget {
   Dash1({Key? key}) : super(key: key);
