@@ -1,4 +1,4 @@
-import 'package:auctiondemo/src/features/core/admin/screens/dashboard.dart';
+
 import 'package:flutter/material.dart';
 
 import 'package:flutter_zoom_drawer/config.dart';
@@ -11,7 +11,9 @@ import 'public/utils/constants/colors.dart';
 import 'src/common_widgets/loading_dialog/loadingdialog.dart';
 import 'src/common_widgets/user_bottom_nav/bottombar.dart';
 import 'src/features/core/controllers/drawer_controller.dart';
-import 'src/features/core/user/screens/home/widgets/drawer_menu.dart';
+
+import 'src/features/core/screens/admin/dashboard.dart';
+import 'src/features/core/screens/user/home/widgets/drawer_menu.dart';
 import 'src/providers/user_provider.dart';
 
 class EntryPoint extends StatefulWidget {

@@ -3,7 +3,7 @@ import '../../src/features/authentication/screens/login/login_screen.dart';
 import '../../src/features/authentication/screens/signup/signup_screen.dart';
 import '../../src/features/authentication/screens/welcome/welcome.dart';
 
-import '../features/core/admin/screens/dashboard.dart';
+import '../features/core/screens/admin/dashboard.dart';
 import '../common_widgets/user_bottom_nav/bottombar.dart';
 
 import '../../splash_screen.dart';
