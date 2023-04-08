@@ -1,15 +1,10 @@
-import 'dart:ui';
-
 import 'package:auctiondemo/public/utils/constants/colors.dart';
 import 'package:auctiondemo/public/utils/constants/refer_to_constants.dart';
 
 import 'package:auctiondemo/src/models/usermodel.dart';
 import 'package:auctiondemo/src/providers/user_provider.dart';
 import 'package:auctiondemo/src/repository/authentication_repository/authentication_repository.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
@@ -30,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final controller = Get.put(MyDrawerController());
     UserProvider userprovider =
-    Provider.of<UserProvider>(context, listen: false);
+        Provider.of<UserProvider>(context, listen: false);
     UserDataModel profiledata = Provider.of<UserProvider>(context).getUserData;
 
     RefreshController _refreshController = RefreshController();
@@ -157,7 +152,8 @@ class _HomeScreenState extends State<HomeScreen> {
         child: SizedBox(
           width: width,
           child: SingleChildScrollView(
-            padding: const EdgeInsets.only(left: 20.0,right:20.0,bottom: 80.0),
+            padding:
+                const EdgeInsets.only(left: 20.0, right: 20.0, bottom: 80.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
@@ -172,8 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -189,8 +184,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -206,8 +200,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -223,8 +216,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -240,8 +232,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -257,8 +248,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -274,8 +264,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -291,8 +280,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -308,8 +296,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -325,8 +312,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -342,8 +328,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -359,8 +344,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
@@ -376,8 +360,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       TextSpan(
                         text: 'App',
-                        style:
-                        TextStyle(fontSize: 30.0, color: Colors.blue),
+                        style: TextStyle(fontSize: 30.0, color: Colors.blue),
                       ),
                     ],
                   ),
